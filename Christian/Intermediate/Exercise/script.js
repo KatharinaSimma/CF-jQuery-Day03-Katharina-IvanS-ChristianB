@@ -24,21 +24,25 @@ for (let i = 0; i < dataArr.length; i++) {
     }
 };
 
+
+//Function to Listen for Click and Increasing or Decreasing the Quantity of the Product:
 $(document).ready(function() {
+	//Subfunction for click on plus:
     $(".plus").on("click", function(){
         var index = $(this).parent().attr("id");
         dataArr[index].quantity += 1;
-        // dataObjects[index] = dataObjects[index] + 5;
+        // dataArr[index] = dataArr[index] + 5;
         $(this).parent().find(".points").html(dataArr[index].quantity);
-        console.table(dataArr);
+        // console.table(dataArr);
     })
 
+    //Subfunction for click on minus:
     $(".minus").on("click", function(){
         var index = $(this).parent().attr("id");
         dataArr[index].quantity -= 1;
-        // dataObjects[index] = dataObjects[index] - 5;
+        // dataArr[index] = dataArr[index] + 5;
         $(this).parent().find(".points").html(dataArr[index].quantity);
-        console.table(dataArr);
+        // console.table(dataArr);
 
     })
 
