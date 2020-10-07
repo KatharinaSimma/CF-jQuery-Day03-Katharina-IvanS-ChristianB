@@ -3,10 +3,10 @@ body {
 }
 
 img {
-  max-width: 300px;
-  max-height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 10em;
+  width: 15em;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 #mainDiv {
@@ -19,15 +19,12 @@ img {
           flex-flow: row wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: space-around;
-      -ms-flex-align: space-around;
-          align-items: space-around;
-  border: 2px solid lime;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
 }
 
 .flexItem {
-  border: 2px solid red;
-  -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
 }
 /*# sourceMappingURL=katharinasshop.css.map */
