@@ -3,15 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Sale</title>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <style>
+        #mainContent {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: space-around;
+            /* border: 2px solid lime; */
+            width:100%;
+        }
+
+        .productDiv {
+            text-align: center;
+            width: 45%;
+            border: solid lightgray 5px;
+            margin: 3% 0 3% 0;
+            padding: 2% 0 2% 0;
+        }
+
+        img {
+            width: 250px;
+            height: auto;
+            max-height: 200px;
+        }
+        .quantityBox {
+            padding: 1%;
+            margin: 0 auto;
+            width: 20%;
+            border: solid black 2px;
+            background-color: lightgray;
+        }
+        .btn {
+            padding: 1%;
+            margin: 0 0 5% 0;
+        }
+    </style>
 </head>
 <body>
     <div id="mainContent">
 
     </div>
     
-
-
 
     <script src="data.json"></script>
     <script src="script.js"></script>

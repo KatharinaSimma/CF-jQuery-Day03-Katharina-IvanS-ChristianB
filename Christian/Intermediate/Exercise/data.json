@@ -5,42 +5,64 @@ var data = `
         "price": "$ 1999",
         "description": "It's a goooood PC. äähhh MacBook",
         "image": "img/notebook_apple.png",
-        "type": "notebook"
+        "type": "notebook",
+        "quantity": 10
     },
     {
         "name": "Samsung Tablet",
         "price": "$ 499",
         "description": "Good handheld. ",
         "image": "img/tablet_samsung.png",
-        "type": "tablet"
+        "type": "tablet",
+        "quantity": 10
     },
     {
         "name": "Samsung Notebook",
         "price": "$ 1199",
         "description": "Solid device. Makes good code and stuff. Not bad one. No that not exist here.",
         "image": "img/notebook_samsung.png",
-        "type": "notebook"
+        "type": "notebook",
+        "quantity": 10
     },
     {
         "name": "Samsung Phone",
         "price": "$ 499",
         "description": "Good Phone. Has nice connection and so on.",
         "image": "img/phone_samsung.png",
-        "type": "phone"
+        "type": "phone",
+        "quantity": 10
     },
     {
         "name": "iPad",
         "price": "$ 699",
         "description": "Irgendwas steht hier und wird dich sicher überzeugen diese Produkt zu kaufen!",
         "image": "img/tablet_ipad.png",
-        "type": ""
+        "type": "tablet",
+        "quantity": 10
     },
     {
         "name": "iPhone XVI",
         "price": "$ 15",
         "description": "Good iPhone. No fake. Promise!!!",
         "image": "img/phone_iphone.png",
-        "type": "phone"
+        "type": "phone",
+        "quantity": 10
+    },
+    {
+        "name": "SuperMegaPhone",
+        "price": "$ 1",
+        "description": "Good iPhone. No fake. Even more Promise",
+        "image": "img/phone.jpg",
+        "type": "phone",
+        "quantity": 10
+    },
+    {
+        "name": "iPhone XVI",
+        "price": "$ 555",
+        "description": "Big Tablet. You want to buy!!!",
+        "image": "img/tablet.jpg",
+        "type": "tablet",
+        "quantity": 10
     }
     
 ]`;
