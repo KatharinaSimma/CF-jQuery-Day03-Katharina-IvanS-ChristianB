@@ -1,0 +1,48 @@
+var data =`[{
+                "name": "MacBook",
+                "type": "notebook",
+                "price": 199,
+                "img": "src='./img/notebook_apple.png'",
+                "description": "This is a notebook!",
+                "available": 10
+                },
+                {
+                "name": "Samsung Notebook 7",
+                "type": "notebook",
+                "price": 50,
+                "img": "src='./img/notebook_samsung.png'",
+                "description": "This is a Samsung No,tebook!",
+                "available": 8
+                },
+                {
+                "name": "iPhone 7",
+                "type": "phone",
+                "price": 299,
+                "img": "src='./img/phone_iphone.png'",
+                "description": "This is a phone made, from apples!",
+                "available": 15
+                },
+                {
+                "name": "Samsung Galaxy x7",
+                "type": "phone",
+                "price": 1000,
+                "img": "src='./img/phone_samsung.png'",
+                "description": "This phone is way to, expensive!",
+                "available": 21
+                },
+                {
+                "name": "iPad",
+                "type": "tablet",
+                "price": 1000,
+                "img": "src='./img/phone_iphone.png'",
+                "description": "Cat like gadgets!",
+                "available": 3
+                },
+                {
+                "name": "Samsung Tablet",
+                "type": "tablet",
+                "price": 1000,
+                "img": "src='./img/tablet_samsung.png'",
+                "description": "Breaks easily!",
+                "available": 9
+            }]`;

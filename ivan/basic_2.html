@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Basic 2 Exercise</title>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+	<style>
+		.newItem {
+			display: none;
+		}
+		
+	</style>
+</head>
+<body>
+
+		<ul>
+			<li>sleep</li>
+			<li>coffee</li>
+			<li>eat</li>
+			<li>code</li>
+			<li>repeat</li>
+		</ul>
+
+		<label>Create new entry:
+			<input type="text" value="" />
+			<button type="submit">submit</button>
+		</label>
+		
+
+	<script>
+		
+		$(document).ready(function() {
+
+			function removeItem() {
+				$(this).animate({
+				paddingLeft: '+=80px', 
+				opacity: 0.0}, 500, function() {
+				$(this).remove();
+				});
+			};
+
+			$("ul").on('click', 'li', removeItem);
+
+			$("button").on('click', function() {	// button fürs click event
+				var newEntry = $("input").val();	// input auswählen und value entnehmen
+				$("ul").append(`<li class="newItem""> ${newEntry} </li>`);	// neues li element mit display none für fadeIn
+				$(".newItem").fadeIn(1000);	// value mit fade einspielen
+			//	$(".newItem").on('click',removeItem);	// click event nested inside click event
+			});
+		});
+
+	</script>
+
+</body>
+</html>
