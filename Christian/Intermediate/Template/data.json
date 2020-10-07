@@ -1,0 +1,46 @@
+var data = `
+[
+    {
+        "name": "MacBook",
+        "price": "$199",
+        "description": "It's a goooood Lapt... äähhh MacBook",
+        "image": "",
+        "type": ""
+    },
+    {
+        "name": "",
+        "price": "",
+        "description": "",
+        "image": "",
+        "type": ""
+    },
+    {
+        "name": "",
+        "price": "",
+        "description": "",
+        "image": "",
+        "type": ""
+    },
+    {
+        "name": "",
+        "price": "",
+        "description": "",
+        "image": "",
+        "type": ""
+    },
+    {
+        "name": "",
+        "price": "",
+        "description": "",
+        "image": "",
+        "type": ""
+    },
+    {
+        "name": "",
+        "price": "",
+        "description": "",
+        "image": "",
+        "type": ""
+    }
+    
+]`;
