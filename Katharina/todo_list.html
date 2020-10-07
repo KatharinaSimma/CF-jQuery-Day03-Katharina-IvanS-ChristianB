@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+</head>
+<body>
+    
+    <form name="toDoList">
+       <input id="input" type="text" name="ListItem"/>
+    </form>
+    <button id="button">Add to List</button>
+    </br>
+    <ul>
+        <li>milk</li>
+        <li>sugar</li>
+        <li>flour</li>
+        <li>eggs</li>
+        <li>butter</li>
+    </ul>
+
+
+<script>
+
+    $(document).ready(function(){
+        
+        // function for removal of items to be called later
+        function removeItems() {
+            $(this).animate({
+                opacity: 0.0,
+                paddingLeft: '+=500'
+            }, 5000, function() {
+                $(this).remove();
+            });
+        }
+        
+            // add an item to the list
+            $('button').click(function(){
+                $('ul').append('<li>' + $('#input').val() + '</li>');
+                $('li').on('click', removeItems); // call function for newly added list elements
+            })
+            // call click function for html list items
+            $('li').on('click', removeItems);
+     
+    
+        
+    });
+
+</script>
+
+
+</body>
+</html>
